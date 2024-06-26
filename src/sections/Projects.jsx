@@ -4,7 +4,10 @@ import { arrow } from '../assets'
 
 const Projects = () => {
   return (
-    <div id='project' className='flex flex-col py-40 items-center'>
+    <div id='project' className='flex flex-col max-w-7xl mx-auto px-4'>
+        <span className='text-white font-satoshi font-bold text-[40px] '>
+            Projects
+        </span>
         <div className='pb-10'>
             <Instances />
         </div>

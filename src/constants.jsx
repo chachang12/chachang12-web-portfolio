@@ -1,15 +1,35 @@
-const constants = [
+const languages = [
     "C#",
     "JavaScript",
-    "React",
-    "Node.js",
-    "MS SQL",
+    "SQL",
     "Java",
     "Dart",
     "Python",
     "Swift",
-    "C++"
+    "C++",
+    "HTML",
+    "CSS"
 ];
+
+const tools = [
+    "Visual Studio",
+    "VS Code",
+    "Xcode",
+    "Postman",
+    "Git",
+    "Azure",
+    "Firebase"
+];
+
+const frameworks = [
+    "React",
+    "Node.js",
+    "Express",
+    "Flutter",
+    "SwiftUI",
+    "ASP.NET",
+];
+
 export {
-    constants
+    languages, tools, frameworks
 }

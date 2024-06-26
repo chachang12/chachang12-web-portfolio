@@ -1,12 +1,12 @@
 import React from 'react'
-import { AboutMeText, LanguageScroll } from '../components'
+import { AboutMeText, Skills } from '../components'
 import { memoji, linkedin, github } from '../assets'
-import Ticker from 'react-ticker';
+
 
 const About = () => {
   return (
     <div className='flex flex-col max-w-7xl mx-auto px-4'>
-        <div className='pl-40'>
+        <div className=''>
             <div className='flex flex-row'>
                 <div id='about' className=' pr-20'>
                     <h1 className='font-satoshi text-white text-[80px] font-bold'>
@@ -17,7 +17,7 @@ const About = () => {
                     </div>
                     
                 </div>
-                <div className='flex flex-col items-center pr-40'>
+                <div className='flex flex-col items-center'>
                     <div className=''>
                         <img src={memoji} alt="memoji" className='w-[1500px]'/>
                     </div>
@@ -28,14 +28,16 @@ const About = () => {
                 </div>
                 
             </div>
-            <h2 className='font-satoshi text-white text-[32px] font-medium py-4'>
-                Recent Work In:
-            </h2>
+            <div>
+                <h2 className='font-satoshi text-white text-[32px] font-semibold py-4'>
+                    Skills
+                </h2>
+                <Skills />
+            </div>
+            
         </div>
         
-        <div className='py-4'>
-            <LanguageScroll />
-        </div>
+        
 
     </div>
     

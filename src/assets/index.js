@@ -4,6 +4,7 @@ import github from './github.svg';
 import arrow from './arrow.svg';
 import pagingsim from './paging-sim.png';
 import email from './email.svg';
+import ppdemotransparent from './ppdemotransparent.png';
 
 export {
     memoji,
@@ -11,5 +12,6 @@ export {
     github,
     arrow,
     pagingsim,
-    email
+    email,
+    ppdemotransparent
 }

@@ -9,7 +9,7 @@ const Contact = () => {
                 Get In Touch
             </span>
             <p className='font-satoshi text-white space-y-10 font-light text-center pb-4'>
-                Feel free to reach out if you have any inquiries about potential opportunities, questions about previous projects, or if you need further clarification. I look forward to hearing from you.
+                Feel free to reach out if you have any inquiries, potential opportunities, questions about previous projects, or if you need further clarification. I look forward to hearing from you.
             </p>
             <a href="mailto:gimchang30@gmail.com">
                 <img src={email} className='w-20'/>
