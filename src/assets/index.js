@@ -5,6 +5,11 @@ import arrow from './arrow.svg';
 import pagingsim from './paging-sim.png';
 import email from './email.svg';
 import ppdemotransparent from './ppdemotransparent.png';
+import ppdemonocut from './ppdemonocut.png';
+import ranks from './ranks.png';
+import githubMark from './github-mark.svg';
+import carsonlogo from './carsonlogo.svg';
+import instagram from './instagram.svg';
 
 export {
     memoji,
@@ -13,5 +18,10 @@ export {
     arrow,
     pagingsim,
     email,
-    ppdemotransparent
+    ppdemotransparent,
+    ppdemonocut,
+    ranks,
+    githubMark,
+    carsonlogo,
+    instagram
 }

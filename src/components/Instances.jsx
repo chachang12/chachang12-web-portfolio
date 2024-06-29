@@ -1,21 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import ProjectInstances from '../models/ProjectInstances';
-import { arrow } from '../assets';
+import { Link } from 'react-router-dom';
+import ProjectInstances from '../constants/ProjectInstances';
 import ProjectCard from './ProjectCard';
 
 const Instances = () => {
   return (
     <div className='flex justify-center'>
-        <div>
+        <div className='flex flex-wrap gap-4'> {/* Added gap-4 for spacing between cards */}
             {ProjectInstances.map((project, index) => (
                 project.link.startsWith('http') ? (
-                  // External link
                   <a href={project.link} target="_blank" rel="noopener noreferrer" key={index}>
                     <ProjectCard project={project} />
                   </a>
                 ) : (
-                  // Internal link using Link component
                   <Link to={project.link} key={index}>
                     <ProjectCard project={project} />
                   </Link>
@@ -25,8 +22,5 @@ const Instances = () => {
     </div>
   );
 }
-
-// Extracted project content into its own component for reusability
-
 
 export default Instances;

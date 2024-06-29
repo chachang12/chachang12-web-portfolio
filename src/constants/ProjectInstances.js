@@ -1,4 +1,4 @@
-import Project from "./Project";
+import Project from "../models/Project";
 import pagingsim from '../assets/paging-sim.png'; // Import the image directly
 import { ppdemotransparent } from "../assets";
 
